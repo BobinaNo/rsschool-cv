@@ -1,4 +1,4 @@
-[rsschool-cv](https://annavoloshina.github.io/rsschool-cv/)
+[rsschool-cv](https://bobinano.github.io/rsschool-cv/cv)
 
 ---
 
