@@ -37,7 +37,7 @@ An experienced and responsible excavator operator with over 10 years of experien
 
 ## Code example:
 
-_Complete the solution so that it reverses the string passed into it. _
+_Complete the solution so that it reverses the string passed into it._
 
 > function solution(str){
 > return str.split("").reverse().join("")
