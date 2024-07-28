@@ -128,6 +128,7 @@ body {
     height: 100%;
     font-family: var(--font-family);
     font-size: 15px;
+    scroll-behavior: smooth;
     /* background-color: #444; */
 }
 
@@ -213,6 +214,10 @@ body {
     color: var(--color-dark-s);
 }
 
+.menu__link:hover {
+    color: var(--color-light-xl)
+}
+
 .menu__link_active {
     position: relative;
     font-family: var(--second-family);
@@ -294,6 +299,11 @@ body {
     background-color: var(--color-primary);
     /* margin: 42px 0 0 0; */
 
+}
+
+.block-text__button:hover {
+    background-color: var(--color-primary-light);
+    transition: background-color 0.5s ease;
 }
 
 .button {
@@ -423,6 +433,12 @@ body {
     height: 50px;
     border-color: var(--color-primary);
     background-color: var(--color-light-l);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--color-primary-light);
+    transition: background-color 0.5s ease;
 }
 
 .btn-left {}
@@ -443,6 +459,11 @@ body {
     width: 270px;
     background-color: var(--color-light-s);
     /* height: 400px; */
+}
+
+.card:hover {
+    box-shadow: 2px 5px 15px rgb(12, 12, 13);
+    transition: box-shadow 0.5s ease;
 }
 
 .card__image {
@@ -478,6 +499,11 @@ body {
 
 }
 
+.card:hover .card__button {
+    background-color: var(--color-primary-light);
+    transition: background-color 0.5s ease;
+}
+
 .btn-right {}
 
 .our-friends__button {
@@ -495,6 +521,11 @@ body {
     color: var(--color-dark-3xl);
 
 
+}
+
+.our-friends__button:hover {
+    background-color: var(--color-primary-light);
+    transition: background-color 0.5s ease;
 }
 
 
@@ -628,11 +659,14 @@ body {
     padding: 10px 15px;
     background-color: var(--color-primary);
     border-radius: 9px;
-
-
-
-
+    /* cursor: pointer; */
 }
+
+.addition__input-container:hover {
+    background-color: var(--color-primary-light);
+    transition: background-color 0.5s ease;
+}
+
 
 .addition__icon {}
 
@@ -646,7 +680,13 @@ body {
     letter-spacing: 0.06em;
     text-align: left;
     border: none;
+    cursor: pointer;
 
+}
+
+.addition__input:hover {
+    background-color: var(--color-primary-light);
+    transition: background-color 0.5s ease;
 }
 
 .addition__legal-info {
